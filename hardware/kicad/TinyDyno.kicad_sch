@@ -4970,7 +4970,7 @@
 		)
 		(uuid "309b04c5-9670-48e8-9b0a-76a38ee64aed")
 	)
-	(label "3V3_MEAS"
+	(label "3V3_PERIPH"
 		(at 68.58 111.76 90)
 		(effects
 			(font
@@ -6761,7 +6761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA228"
+		(property "Value" "INA226"
 			(at 280.2733 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6805,7 +6805,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C2887910"
+		(property "LCSC" " C49851"
 			(at 278.13 148.59 0)
 			(hide yes)
 			(show_name no)

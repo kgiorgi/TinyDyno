@@ -80,6 +80,22 @@
         [
           "hole_clearance|150820000|116500000|86d6b10a-9caa-43a0-80cb-4ab7122554db|d9e90177-0a68-4294-acb2-4594b71a8ca9",
           ""
+        ],
+        [
+          "starved_thermal|120750000|164305000|c7ef43cf-1efb-45c3-9247-4aae023d9ef9|61a7657d-32b6-4ed6-895b-3cb2d8864f5a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|120750000|164305000|c7ef43cf-1efb-45c3-9247-4aae023d9ef9|c232b71a-c343-47a0-8123-541eb00bb9e0|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|127250000|164305000|c7ef43cf-1efb-45c3-9247-4aae023d9ef9|57526529-44b0-4eac-96f9-169a56f0d9a9|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|127250000|164305000|c7ef43cf-1efb-45c3-9247-4aae023d9ef9|b13943dd-800a-4ad8-8e2d-c0a46fbdcb29|F.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -163,11 +179,11 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -567,7 +583,11 @@
       },
       {
         "netclass": "Power",
-        "pattern": "*3V3_*"
+        "pattern": "*3V3_MEAS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*3V3_REGA"
       }
     ]
   },
