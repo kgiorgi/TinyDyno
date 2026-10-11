@@ -5385,6 +5385,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 189.23 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "79d73747-7545-4fd4-a9f0-a1cd9c8b820c")
 		)
@@ -5456,6 +5467,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 237.49 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 237.49 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,6 +5647,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 149.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2f32dcb-7fc1-46f9-baff-cdbb8142171d")
 		)
@@ -5694,6 +5727,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5862,6 +5906,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C171499"
+			(at 237.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23d26c59-e240-42fe-9d12-dfe2eda634b2")
 		)
@@ -5937,6 +5992,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 242.57 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6262,6 +6328,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 194.31 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A12"
 			(uuid "a364726e-3ab9-4326-871a-774e388caf1a")
 		)
@@ -6387,6 +6464,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 137.16 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f9d2839-59e5-4785-9448-468a79dc799b")
 		)
@@ -6458,6 +6546,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
+			(at 213.36 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6706,6 +6805,17 @@
 				)
 			)
 		)
+		(property "LCSC" " C2887910"
+			(at 278.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "f565e8d5-36d0-4aae-b757-eb6a7a255754")
 		)
@@ -6810,6 +6920,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C171499"
+			(at 242.57 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30289637-fd98-433e-a8f7-47036b02d88d")
 		)
@@ -6885,6 +7006,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 77.47 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7132,6 +7264,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 210.82 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6e24222-4a24-4ed0-9258-3b5cf70c90a4")
 		)
@@ -7290,6 +7433,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 142.24 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81d2ac2e-c066-4603-85f9-4da4e7e6ea4b")
 		)
@@ -7372,6 +7526,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73358330-08d3-4fdb-9965-61d286b5a720")
 		)
@@ -7443,6 +7608,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 140.97 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 140.97 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,6 +7778,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7772,6 +7959,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 245.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d19dc56a-22c3-4885-a9ff-cfb2eb6c67d4")
 		)
@@ -7845,6 +8043,17 @@
 			)
 		)
 		(property "Description" "High performance digital XENSIV MEMS microphone, -36 dBFS Sensitivity, LLGA-5"
+			(at 220.98 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C536262"
 			(at 220.98 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8337,6 +8546,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 134.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "012cbcc5-6ac5-4e00-aa69-46cfd19f1759")
 		)
@@ -8495,6 +8715,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 279.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9656fe57-d40a-4fbf-9d3d-6b6601f045cf")
 		)
@@ -8577,6 +8808,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c94bc640-34e9-4174-8d95-fd77f879cccc")
 		)
@@ -8646,6 +8888,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 229.87 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8825,6 +9078,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 144.78 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7b2a28e9-02a9-418b-8c2e-0f214d218996")
 		)
@@ -8897,6 +9161,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 68.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8989,6 +9264,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 85.09 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cbf7edc3-52cd-4bc1-b156-b0c511423e4c")
 		)
@@ -9061,6 +9347,17 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" " C2913202"
 			(at 104.14 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9504,6 +9801,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76252"
+			(at 288.29 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "69fabee6-0737-4e76-96db-489c22f6d900")
 		)
@@ -9577,6 +9885,17 @@
 			)
 		)
 		(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"
+			(at 185.42 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C967633"
 			(at 185.42 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9705,6 +10024,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 224.79 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53a5a51e-51a4-4fb4-a0c0-56d0574ed5ae")
 		)
@@ -9777,6 +10107,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 80.01 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9945,6 +10286,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 213.36 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3210e5e-3c57-4945-a9be-c917f4a668e6")
 		)
@@ -10027,6 +10379,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 255.27 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6dcd8844-6b44-4f6d-b30f-7134cab7e902")
 		)
@@ -10098,6 +10461,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 294.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 294.64 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,6 +10710,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 68.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 68.58 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
