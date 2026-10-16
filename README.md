@@ -1,10 +1,30 @@
 # TinyDyno
-esp32-s3 based board for measuring time and energy of edge AI. Its main use is to compare my kernels to ESP-DL and TensorFlow Lite Micro on identical inputs.
+
 ![TinyDyno](docs/images/TinyDyno.png)
-so basically USB-C provides 5V. Two separate 3.3V regulators turn it into two rails: measured and peripheral.
-Current flowing through the shunt creates a small voltage across it.The INA226(aka U3) power monitor measures it to get the current, and measures the 3.3 V rail itself to get the voltage. By multiplying it gets power. Its ALERT pin alerts the ESP32 when a new reading is ready.The shunt is also measured by a pair of thin sense traces that run straight from the shunt's pads to the INA226.
-Energy = power × time. During an inference, the ESP32 reads the power about once a millisecond and adds up power × time.
-Time comes from the ESP32's internal timer. Test point TP1 is set high when an inference starts and low when it ends, so a logic analyzer or oscilloscope can check the timing independently.
-Ordered from JLCPCB, Standard assembly, top side only. JLC adds 5 mm edge rails on two sides; snap them off along the V-cut.
-U3 change: the plan was the INA228, but it was out of stock at JLC. It was replaced with the INA226, which has the same footprint and pin order, so the layout didn't change.
-MK1 rotation: the position file says 180°, but the microphone was corrected by hand in JLC's placement preview. Check it again on any re-order.
+
+An ESP32-S3 board that measures the speed and energy efficiency of one neural network inference.
+
+**What is it exactly?**
+TinyDyno is a custom 72 by 72 mm, 2 layered PCB based on ESP32-S3.It is basically a test bench for machine learning on tiny devices (AKA edgeAI). It runs a neural network based on the data from sensors and measures every inference for time and energy. Time is how long the inference took and energy is how much ESP32-S3 has used during it.
+
+To account for actual use cases it has an IMU(motion sensor) and a microphone which are for gesture recogniton and keyword detector so the usual run look something like this:
+1. Record the input from either sensors
+2. Run the same model on the same input but with different libraries.(My kernels VS Espressif's ESP-DL VS TensorFlow Lite Micro)
+3. Measure each run using the INA226 (power monitor) which reports current/voltage going into the ESP32-S3 which does the power over time math
+4. Get the results and make conclusions
+
+(A test pad (TP1) goes high during each inference, so the timing can be checked independently with an oscilloscope or logic analyzer.)
+
+**The WHY behind it all**
+
+Wanting to optimize the field I am currently curious about (AI) I brainstormed for a bit and came to the conclusion that you can't optimize something that you can't measure. After a bit of digging I found few issue it would solve on top of the qol it would provide for me:
+1.Most benchmarks only report speed so a faster kernel that uses more power can still drain the battery sooner.
+2.The USB power meters are quite slow. They update a few times per second, while one inference takes about 5–50 ms.
+
+TinyDyno fixes this by giving the ESP32-S3 its own power rail with a current-sense resistor, so the power monitor sees only the chip running the model, about once every millisecond.(Also it's not like you can find stuff like this easily to buy)
+
+**how does it work?**
+
+![TinyDyno](docs/images/tinydyno.drawio.png)
+
+
