@@ -18,8 +18,8 @@ To account for actual use cases it has an IMU(motion sensor) and a microphone wh
 **The WHY behind it all**
 
 Wanting to optimize the field I am currently curious about (AI) I brainstormed for a bit and came to the conclusion that you can't optimize something that you can't measure. After a bit of digging I found few issues it would solve on top of the qol it would provide for me:
-1.Most benchmarks only report speed so a faster kernel that uses more power can still drain the battery sooner.
-2.The USB power meters are quite slow. They update a few times per second, while one inference takes about 5–50 ms.
+1. Most benchmarks only report speed so a faster kernel that uses more power can still drain the battery sooner.
+2. The USB power meters are quite slow. They update a few times per second, while one inference takes about 5–50 ms.
 
 (Also it's not like you can find stuff like this easily to buy)
 
