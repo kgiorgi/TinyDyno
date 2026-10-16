@@ -169,8 +169,8 @@ In total that's 32 parts per board, 16 different ones. The full exported list is
 | USB-C connectors (x2) | $0.37 |
 | Resistors, capacitors, LED and buttons | $2.42 |
 | Standard assembly for 2 boards (setup, stencil, part loading, placement) | $66.86 |
-| Shipping to Georgia (UPS), after a $10 coupon | $29.82 |
-| **Total** | **$126.01** |
+| Shipping situational in my case 29.82 but I cover it | covered |
+| **Total** | **96.19** |
 
 **Fabrication notes**
 
