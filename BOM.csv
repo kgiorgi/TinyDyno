@@ -1,0 +1,12 @@
+Item,Qty,Supplier,Cost/item,Total Cost,link
+"TinyDyno PCB, 2-layer, 72 × 72 mm (×5 boards)",1,JLCPCB,$4.00,$4.00,https://jlcpcb.com
+ESP32-S3-WROOM-1-N16R8 (×2),1,LCSC,$10.29,$10.29,https://lcsc.com/product-detail/C2913202.html
+IM69D130V01 PDM microphone (×2),1,LCSC,$6.25,$6.25,https://lcsc.com/product-detail/C536262.html
+LSM6DS3TR-C IMU (×2),1,LCSC,$3.04,$3.04,https://lcsc.com/product-detail/C967633.html
+INA226AIDGSR (×2),1,LCSC,$1.52,$1.52,https://lcsc.com/product-detail/C49851.html
+LR1107G-33 regulator (×5),1,LCSC,$0.86,$0.86,https://lcsc.com/product-detail/C171499.html
+75 mΩ 2512 shunt resistor (×5),1,LCSC,$0.58,$0.58,https://lcsc.com/product-detail/C76252.htm
+USB-C TYPE-C-31-M-12 (×2,1,LCSC,$0.37,$0.37,https://lcsc.com/product-detail/C165948.html
+"Passives, LED and buttons",1,LCSC,$2.42,$2.42,https://github.com/kgiorgi/TinyDyno/blob/main/hardware/kicad/production/bom.csv
+"Standard PCB assembly, 2 boards, top side",1,JLCPCB,$66.86,$66.86,https://jlcpcb.com
+Estimated total shipping,1,,,$0.00,
