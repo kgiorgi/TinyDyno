@@ -21,7 +21,7 @@ Wanting to optimize the field I am currently curious about (AI) I brainstormed f
 1.Most benchmarks only report speed so a faster kernel that uses more power can still drain the battery sooner.
 2.The USB power meters are quite slow. They update a few times per second, while one inference takes about 5–50 ms.
 
-TinyDyno fixes this by giving the ESP32-S3 its own power rail with a current-sense resistor, so the power monitor sees only the chip running the model, about once every millisecond.(Also it's not like you can find stuff like this easily to buy)
+(Also it's not like you can find stuff like this easily to buy)
 
 **how does it work?**
 
