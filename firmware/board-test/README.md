@@ -1,8 +1,9 @@
-# TinyDyno board test
 
-This is the first thing to flash onto a new TinyDyno after soldering it. It checks every part on the board one by one, prints PASS or FAIL for each over USB, and then keeps printing live readings so you can poke at the board and see things change.
+**TinyDyno board test**
 
-## What it checks
+This is the first thing to flash onto a new TinyDyno after soldering it. It checks every part on the board one by one, prints PASS or FAIL for each over USB, and then keeps printing live readings so you can see what's up.
+
+**What it checks**
 
 The ESP32-S3: that it sees 16 MB of flash and 8 MB of PSRAM, and that it can write and read back 1 MB of PSRAM.
 
@@ -18,7 +19,7 @@ The microphone: it records 1 second and checks that the signal isn't flat. Clap 
 
 The BOOT button gets checked in the live readout: press it and it prints a line.
 
-## How to flash
+**How to flash**
 
 Open this folder in VS Code with PlatformIO and plug the board in with USB-C.
 
@@ -28,7 +29,7 @@ Click Upload in the PlatformIO bar at the bottom. When it's done, tap EN to rest
 
 Keep the board flat and still while the tests run, otherwise the IMU test can fail.
 
-## What you should see
+**What you should see**
 
 The tests print one line each, something like:
 
@@ -42,7 +43,7 @@ The tests print one line each, something like:
 
 and at the end a line saying how many passed. After that it prints voltage, current, IMU and mic readings every half second.
 
-## If something fails
+**If something fails**
 
 If PSRAM shows 0, check that the module is the N16R8 and that platformio.ini wasn't changed.
 
